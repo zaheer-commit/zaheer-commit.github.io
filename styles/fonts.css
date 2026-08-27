@@ -1,0 +1,13 @@
+@font-face
+{
+    font-family: inter;
+    src: url(../public/fonts/inter.ttf) format('truetype'); 
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../public/fonts/Montserrat.ttf) format('truetype');
+}
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../public/fonts/PlayfairDisplay.ttf) format('truetype');
+}

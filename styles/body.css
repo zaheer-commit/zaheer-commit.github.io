@@ -1,0 +1,211 @@
+#hero-content
+{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #27241f70;
+    width: 65em;
+    height: 35em;
+    margin-top: 3em;
+    border-radius: 1em;
+    align-items: center;
+}
+#hero-content img
+{
+    width: 30em;
+    height: 24em;
+    -webkit-mask-image: linear-gradient(
+        to bottom, black 0%, black 50%, transparent 100%
+    );
+    mask-image: linear-gradient(
+        to bottom, black 0%, black 50%, transparent 100%
+    );
+    margin-top: -1em;
+}
+#hero-content div:nth-child(2)
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5em;
+    width: 33em;
+    margin-top: 3em;
+}
+#hero-content span
+{
+    font-size: 1em;
+    letter-spacing: 0.3em;
+    color: #dac5a7;
+    font-family: inter;
+}
+#hero-content h1, h2
+{
+    font-size: 4.5em;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #dac5a79b;
+    letter-spacing: 0.1em;
+    font-family: PlayfairDisplay;
+    margin: 0;
+}
+#hero-content h1
+{
+    margin: 0 5.44em;
+}
+#hero-content p
+{
+    font-size: 1em;
+    line-height: 1.8;
+    color: #dac5a7c6;
+    max-width: 480px;
+    margin: 10px 0 20px;
+    font-family: inter;
+    letter-spacing: 0.1em;
+}
+#services
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 66.3em;
+    height: auto;
+    gap: 2em;
+    margin-top: 5em;
+    color: #dac5a7;
+}
+#services img
+{
+    width: 1.5em;
+    height: 1.5em;
+    filter: brightness(0) saturate(100%) invert(81%) sepia(15%) saturate(310%) hue-rotate(356deg) brightness(94%) contrast(90%) opacity(0.78);
+}
+#services p
+{
+    color: #dac5a7c6;
+    margin-top: -0.5em;
+    font-family: inter;
+    font-size: 0.9em;
+    margin-bottom: 1.5em;
+}
+#services h3
+{
+    margin-top: 1em;
+    font-family: PlayfairDisplay;
+}
+#services a
+{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 12em;
+    gap: 8px;
+    width: 13em;
+    font-family: Montserrat;
+    font-size: 13px;
+    text-decoration: none;
+    color: #dac5a7c6;
+}
+#services a:hover
+{
+    text-decoration:underline;
+    color: #dac5a7c6;
+}
+.services-title
+{
+    display: flex;
+    gap: 0.8em;
+    justify-content: center;
+    align-items: center;
+}
+.services-title span
+{
+    font-family: inter;
+    font-size: 0.8em;
+}
+.services-title img
+{
+    opacity: 0.60;
+}
+.first-child-services, .second-child-services
+{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}
+.first-child-services div, .second-child-services div
+{
+    background-color: #191816;
+    display: flex;
+    flex-direction: column;
+    width: 16em;
+    height: 11em;
+    border: 1px solid #dac5a71e;
+    padding: 2em;
+}
+#services div span:first-child 
+{
+    font-size: 0.9em;   
+    color: #dac5a77c;
+}
+#skills
+{
+    display: flex;
+    flex-direction: column;
+    width: 66.3em;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    justify-content:center;
+    align-items: center;
+}
+#skills div:nth-child(1)
+{
+    display: flex;
+    flex-direction: row;
+    gap: 0.8em;
+    align-items: center;
+}
+#skills div:nth-child(1) span
+{
+    font-family: inter;
+    font-size: 0.8em;
+    color: #dac5a7;
+}
+#skills div:nth-child(1) img
+{
+    opacity: 0.60;
+    width: 1.5em;
+    height: 1.5em;
+    filter: brightness(0) saturate(100%) invert(81%) sepia(15%) saturate(310%) hue-rotate(356deg) brightness(94%) contrast(90%) opacity(0.78);
+}
+#skills div:nth-child(2) 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 6.3em;
+    margin-top: 1.5em;
+}
+#skills div:nth-child(2) div
+{
+    margin-top: 2em;
+    width: 30em;
+    height: 5em;
+}
+#skills div:nth-child(2) p
+{
+    text-align: center;
+    font-family: PlayfairDisplay;
+    font-weight: 500;
+    line-height:0.7cm;
+    color: #dac5a7
+}
+#skills div:nth-child(2) div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#skills div:nth-child(2) div:nth-child(2)
+{
+    display: flex;
+    flex-direction: column;
+}
