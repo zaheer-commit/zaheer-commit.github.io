@@ -1,10 +1,15 @@
 nav
 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1.5em 0;
+    padding: 1.2em 4em;
+    position: fixed;
+    top: 1;
+    left: 185;
+    width: 76%;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(188, 188, 188, 0.088);
 }
 nav ul
 {
