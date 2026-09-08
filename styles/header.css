@@ -1,61 +1,69 @@
-nav
+#header
 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.2em 4em;
-    position: fixed;
-    top: 1;
-    left: 185;
-    width: 76%;
-    z-index: 1000;
-    border-bottom: 1px solid rgba(188, 188, 188, 0.088);
+    justify-content: center;
 }
-nav ul
+#navbar
 {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    width: 80em;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15em;
     font-family: inter;
+    padding: 2em 0;
+    font-size: 14px;
 }
-nav ul a 
+#navbar a
 {
     text-decoration: none;
-    color: var(--secondary-color);
-    border: 0.5em solid transparent;  
-    border-radius: 30em; 
-    transition: 0.5s ease;
-    font-size: 0.85em;
 }
-nav ul a:hover 
-{
-    border: 0.1em solid var(--secondary-color);     
-    border-radius: 30em;   
-    padding: 0.5em 1.5em;      
-}
-nav ul a.active1 
-{
-    border: 0.1em solid var(--secondary-color);     
-    padding: 0.5em 1.5em;  
-}
-
-#logo 
+.logo
 {
     display: flex;
     align-items: center;
-    font-size: 1.2em;
-    color: var(--secondary-color);
-    font-size: 1em;
-    font-family: inter;
 }
-#logo img 
+.logo img
 {
-    width: 2.5em;
-    height: 2em;
-    filter: brightness(0) saturate(100%) invert(39%) sepia(100%) hue-rotate(14deg);
-    border-radius: 30em;
+    width: 33px;
+    height: 30px;
+    color: var(--primary-color);
     box-shadow:-2px 0px 1px #dac5a7;
+    border-radius: 15px;
+}
+.logo span
+{
+    color: var(--accent-color);
+}
+.nav-links
+{
+    display: flex;
+    gap: 1.5em;
+}
+.nav-links a
+{
+    color: var(--accent-color);
+    border: 0.5em solid transparent;  
+    border-radius: 30px; 
+    transition: 0.5s ease;
+    padding: 1px;      
+    display: inline-block;
+}
+.nav-links a:hover 
+{
+    transform: scale(1.1);
+}
+.nav-links a.active {
+    border: 2px solid var(--accent-color);
+    display: flex;
+    align-items: center;
+    padding: 1px 20px;
+}
+.contact-btn
+{
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    padding: 5px 20px;
+    border-radius: 4px;
 }
