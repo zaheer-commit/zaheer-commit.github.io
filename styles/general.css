@@ -10,7 +10,3 @@ html, body {
     overflow-x: hidden;
     background-color: var(--primary-color);   
 }
-body
-{
-    padding: 0 20px;
-}
