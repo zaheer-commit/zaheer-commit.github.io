@@ -10,3 +10,14 @@ html, body {
     overflow-x: hidden;
     background-color: var(--primary-color);   
 }
+@media (max-width: 600px) {
+
+    #hero_container {
+        width: calc(100% - 2em);
+    }
+
+    #services {
+        width: calc(100% - 2em);
+    }
+
+}
