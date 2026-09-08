@@ -8,6 +8,9 @@ html, body {
     width: 100%;
     height: auto;
     overflow-x: hidden;
-    background-color: var(--primary-color);
-    
+    background-color: var(--primary-color);   
+}
+body
+{
+    padding: 0 20px;
 }
