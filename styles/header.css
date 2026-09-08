@@ -2,12 +2,17 @@
 {
     display: flex;
     justify-content: center;
+    justify-content: center;
+    width: 72%;
+    max-width: 80em;
+    align-items: center;
+    margin: 0 auto;
 }
 #navbar
 {
     display: flex;
     flex-direction: row;
-    width: 72%;
+    width: 100%;
     max-width: 80em;
     justify-content: space-between;
     align-items: center;
